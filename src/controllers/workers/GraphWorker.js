@@ -1,4 +1,5 @@
 // Web Worker (Module) para ejecutar algoritmos de coloración en background
+/* eslint-disable no-restricted-globals */
 
 import Graph from '../../models/Graph.js';
 import LasVegas from '../../models/algorithms/LasVegas.js';

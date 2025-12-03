@@ -163,7 +163,7 @@ export default function GraphCanvasView({
               onClick={() => setMostrarStats(!mostrarStats)}
               title={mostrarStats ? "Ocultar estadísticas" : "Mostrar estadísticas"}
             >
-              <img src="/estadisticas.svg" alt="Stats" style={{ width: DIMENSIONS.ICON_MD, height: DIMENSIONS.ICON_MD }} />
+              <img src={`${process.env.PUBLIC_URL}/estadisticas.svg`} alt="Stats" style={{ width: DIMENSIONS.ICON_MD, height: DIMENSIONS.ICON_MD }} />
             </Button>
             <div className="graph-canvas__toolbar-divider" />
           </>
